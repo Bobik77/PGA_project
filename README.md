@@ -8,7 +8,8 @@ PGA project shared directory
 3. ADDon Převod BCD + alarmy - Pavel
 4. ADDon Ventilátory - Pavel
 5. ADDon Řízení válce - Pavel 
-6. Dokumnetace - OBA
+6. Main rutine _pavel
+7. Dokumnetace - OBA
 
 
 ## Nákres modelu - Dominik
