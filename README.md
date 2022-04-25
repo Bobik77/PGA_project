@@ -1,20 +1,26 @@
 # PGA_project
 PGA project shared directory
-
-*Vaněk Pavel xvanek39@vutbr.cz; 731937719*
-
+Maked by: Hodák Dominik & Vaněk Pavel
+Rozdělení práce:
 1. Nákres modelu dávkovače - Dominik
 2. SCADA - Dominik
 3. ADDon Převod BCD + alarmy - Pavel
 4. ADDon Ventilátory - Pavel
 5. ADDon Řízení válce - Pavel 
-6. Main rutine _pavel
+6. Main rutine - pavel
 7. Dokumnetace - OBA
 
 
 ## Nákres modelu - Dominik
 
-## SCADA
+
+## Vizualizace SCADA - Dominik
+Vizualizace obsahuje dávkovač a ovládací panel. 
+Na ovládavcím panelu jsou tlačítka Start, Stop spolu s červenou a zelenou led. Ovladácí panel obsahuje kontrolky pro všechny alarmy. Otočné číslicové snímače ovládací panel neobsahuje z důvodu interpretace zadání. Volba požadovaného počtu kuliček probíhá přímím nastavovaním logické hodnoty na vstupy PLC pomocí Studio 5000 Logix Emulate.
+Kuličky v dávkovači jsou pouze pro představu. Pro jejich pohyb by bylo potřeba úpravy kódu kterou by reálné zařízení nevyužilo. Každý válec má dva číslicové indikátory, horní pro zvolený počet kuliček, druhý ukazuje aktuální počet nadávkovaných kuliček. Dále má každý válec dvě tlačítka - pro horní snímač a zpětné hlášení pro ventilátor.
+Na ovládavcím panelu jsou tlačítka Start, Stop spolu s červenou a zelenou led. Ovladácí panel obsahuje kontrolky pro všechny alarmy. Otočné číslicové snímače ovládací panel neobsahuje z důvodu interpretace zadání. Volba požadovaného počtu kuliček probíhá přímím nastavovaním logické hodnoty na vstupy PLC pomocí Studio 5000 Logix Emulate.
+Kuličky v dávkovači jsou pouze pro představu. Pro jejich pohyb by bylo potřeba úpravy kódu kterou by reálné zařízení nevyužilo. Každý válec má dva číslicové indikátory, horní pro zvolený počet kuliček, druhý ukazuje aktuální počet nadávkovaných kuliček. Dále má každý válec dvě tlačítka - pro horní snímač a zpětné hlášení pro ventilátor.
+[Vizualizace SCADA](/scada.jpg "SCADA")
 
 ## Add_on bcd_to_dec (FBD) - Pavel 
 Přímo přepisuje bity BCD kódu do DINT. Jsou zde aplikovány alarmy indikující přetečení hodnoty z požadovaného rozmezí. V tomto projektu prakticky nemůže nastat alarm_l.
