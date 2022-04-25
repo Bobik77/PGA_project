@@ -1,0 +1,5 @@
+Dokumentace SCADA
+
+Vizualizace obsahuje dávkovaè a ovládací panel. 
+Na ovládavcím panelu jsou tlaèítka Start, Stop spolu s èervenou a zelenou led. Ovladácí panel obsahuje kontrolky pro všechny alarmy. Otoèné èíslicové snímaèe ovládací panel neobsahuje z dùvodu interpretace zadání. Volení požadovaného poètu kulièek probíhá pøímím nastavovaním logické hodnoty na vstupy PLC pomocí Studio 5000 Logix Emulate.
+Kulièky v dávkovaèi jsou pouze pro pøedstavu. Pro jejich pohyb by bylo potøeba úpravy kódu kterou by reálné zaøízení nevyužilo. Každý válec má dva èíslicové indikátory, horní pro zvolený poèet kulièek, druhý ukazuje aktuální poèet nadávkovaných kulièek. Dále má každý válec dvì tlaèítka pro horní snímaè a zpìtné hlášení pro ventilátor.
