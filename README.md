@@ -12,7 +12,7 @@ Rozdělení práce:
 
 
 ## Nákres modelu - Dominik
-![Model](/model/Model_1.jpg "Model_nakres")
+![Model](/model/Model_1.png "Model_nakres")
 
 
 ## Vizualizace SCADA - Dominik
